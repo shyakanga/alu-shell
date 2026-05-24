@@ -1,0 +1,1 @@
+This repo contains exersices about basics of shell
