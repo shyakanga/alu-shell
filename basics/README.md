@@ -3,3 +3,4 @@ Scripts:
 - ls (1-listit): Display the contents list of your current directory
 - cd ~ (2-bring_me_home): changes the working directory to the user’s home directory
 - ls -l (3-listfiles): Display current directory contents in a long format
+- ls -a (4-listmorefiles): Display current directory contents, including hidden files
