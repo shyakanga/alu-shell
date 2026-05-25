@@ -4,3 +4,17 @@ Scripts:
 - cd ~ (2-bring_me_home): changes the working directory to the user’s home directory
 - ls -l (3-listfiles): Display current directory contents in a long format
 - ls -a (4-listmorefiles): Display current directory contents, including hidden files
+- ls -la (4-listmorefiles): displays current directory contents, including hidden files
+- ls -lan (5-listfilesdigitonly): displays current directory contents in long format with user and group IDs displayed numerically, including hidden files
+- mkdir /tmp/my_first_directory (6-firstdirectory): creates a directory named my_first_directory in /tmp/
+- mv /tmp/betty /tmp/my_first_directory (7-movethatfile): moves the file betty from /tmp/ to /tmp/my_first_directory
+- rm /tmp/my_first_directory/betty (8-firstdelete): deletes the file betty from /tmp/my_first_directory
+- rm -rf /tmp/my_first_directory (9-firstdirdeletion): deletes the directory my_first_directory from /tmp/
+- cd - (10-back): changes the working directory to the previous one
+- ls -la . .. /boot (11-lists): lists all files in the current directory, parent directory and /boot in long format
+- file /tmp/iamafile (12-file_type): prints the type of the file named iamafile
+- ln -s /bin/ls __ls__ (13-symbolic_link): creates a symbolic link to /bin/ls named __ls__
+- cp -u *.html ../ (14-copy_html): copies all HTML files from current directory to parent, only if newer or missing
+- mv [A-Z]* /tmp/u (15-lets_move): moves all files beginning with an uppercase letter to /tmp/u
+- rm *~ (16-clean_emacs): deletes all files ending with ~ in the current directory
+- mkdir -p welcome/to/school (17-tree): creates the directories welcome/, welcome/to/ and welcome/to/school
