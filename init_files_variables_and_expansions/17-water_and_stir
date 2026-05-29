@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "$WATER + $STIR" | tr 'ewatr' '01234' | tr 'tir.' '0123' | bc | tr '0123456789' 'bestchol'
