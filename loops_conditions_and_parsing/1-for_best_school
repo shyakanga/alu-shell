@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 //Using for loop to count from a range of 1 to ten, then displaying the text evertime of the way
 
 for i in {1..10}
