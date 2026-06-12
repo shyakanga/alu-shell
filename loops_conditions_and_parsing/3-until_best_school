@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#Usin until to print out text 10 times
+
+count=0
+until [ $count -ge 10 ];do
+    echo "Best School"
+    ((count++))
+done
