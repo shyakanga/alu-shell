@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+#Using while loop to do custom loop
+
+count=1
+while [ $count -le 10 ]
+do
+    echo "Best School"
+
+    if [ $count -eq 9 ]; then
+        echo "Hi"
+    fi
+
+    ((count++))
+done
