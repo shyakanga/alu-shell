@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 # 11-manage_my_process
-
 PID_FILE="/var/run/my_process.pid"
 PROCESS_NAME="./manage_my_process"
 
@@ -12,7 +11,8 @@ case "$1" in
         ;;
     stop)
         if [ -f "$PID_FILE" ]; then
-            kill $(cat "$PID_FILE")
+            PID=$(cat "$PID_FILE")
+            kill "$PID"
             rm -f "$PID_FILE"
             echo "manage_my_process stopped"
         fi
